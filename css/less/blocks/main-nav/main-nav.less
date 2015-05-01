@@ -1,0 +1,28 @@
+.main-nav {
+	font-family: @font-family--secondary;
+	font-weight: 700;
+
+	&__list {
+		font-size: 0; // Сбросил отступы у инлайн-блоков
+	}
+}
+
+.main-nav__item {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0.9375rem; /* 15px */
+	width: 25%;
+	text-align: center;
+	line-height: 1.25rem; /* 20px */
+}
+
+.main-nav__link {
+	display: block;
+	text-decoration: none;
+	color: #a4a4a4;
+	padding: 5px 0;
+}
+
+.main-nav__link--active {
+	color: #ff6c40;
+}
